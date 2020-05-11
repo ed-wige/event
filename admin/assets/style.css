@@ -1,0 +1,31 @@
+html,body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background: rgb(255, 255, 255);
+}
+
+#login-page {
+   width: 500px;
+}
+
+.card {
+    background-color: rgb(77, 60, 145);
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     -moz-transform: translate(-50%, -50%);
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     -o-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+}
+#login-page{
+    
+}
