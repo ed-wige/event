@@ -1,0 +1,30 @@
+.acc{
+    margin-left: 7%;
+    margin-right: 5%;
+    justify-content: center;
+    background-color: blueviolet;
+}
+body{
+    background-color: blueviolet;
+}
+.img{
+    height: 400px;
+    width: 100%;
+}
+#title{
+    text-align: center;
+    justify-content: center;
+    text-shadow: cornsilk;
+    font-style: italic;
+    font-size: 2em;
+}
+#foot{
+    background-color: rgb(72, 139, 202);
+}
+h1{
+    text-decoration: white underline;
+    font-size: 5em !important;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-shadow: white;
+}
