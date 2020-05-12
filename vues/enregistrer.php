@@ -44,32 +44,25 @@
 <img src="../images/concert.jpg" alt="concert" class="img">
 <center><h1>Bienvenue sur Eventplat</h1></center></div>
 
+<div class="card">
+    <div class="card-content">
+      <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+    </div>
+    <div class="card-tabs">
+      <ul class="tabs tabs-fixed-width">
+        <li class="tab"><a href="#test4">Test 1</a></li>
+        <li class="tab"><a class="active" href="#test5">Test 2</a></li>
+        <li class="tab"><a href="#test6">Test 3</a></li>
+      </ul>
+    </div>
+    <div class="card-content grey lighten-4">
+      <div id="test4">Test 1</div>
+      <div id="test5">Test 2</div>
+      <div id="test6">Test 3</div>
+    </div>
+  </div>
+
 <div class="card small">
-<div class="list-event">
-                       <?php
-                         foreach($list as $key => $value) {
-                       ?>
-            <div class="content-event">
-              <div class="event-num"> Evenement N°: <?=$value->id_event?></div>
-              <div class="event"><?=$value->nom_event?></div>
-              <p class="organ">Organisé par : <?=$value->organisateur?> <br>
-              <span>Du &nbsp &nbsp <?=$value->d_debut?> &nbsp &nbsp Au &nbsp &nbsp <?=$value->d_fin?></span>
-              </p>
-              <div> 
-                <img src="<?=$value->photo?>" alt="" class="even-pic"> 
-              </div>
-              <div>
-                <div class="descript"><?=$value->descript?></div>
-              </div>
-              <div>
-                
-                <a href="comment-even.php?id_event=<?= $value->id_event?>" type="button" class="btn btn-success pull-right btn"> Commenter </a>
-              </div>
-            </div>
-            <?php
-               }
-            ?>
-        </div>
 
 </div>
 </div>
