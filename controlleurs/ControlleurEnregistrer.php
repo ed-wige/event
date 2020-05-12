@@ -23,14 +23,6 @@ if(isset($_GET["id"])){
 
 if(isset($_POST["nom"]) AND isset($_POST["date_de_debut"]) AND isset($_POST["date_de_fin"]) AND isset($_POST["organisateur"]) AND isset($_POST["description"])){
     $event=new Event($_POST);
-    // if($id!=" "){
-    //  $eventManager->misejour($event);
-    // }
-    // else{
-        
-    //     //print_r($moto);
-    //     $eventManager->enregistrer($event);
-    // }
     $eventManager->enregistrer($event);
      header("location:index.php?page=ControlleurListe");
 

@@ -23,6 +23,7 @@
     <thead>
     <tr>
       <th scope="col">Supprimer</th>
+      <th scope="col">id</th>
       <th scope="col">Nom</th>
       <th scope="col">Date de début</th>
       <th scope="col">Date de fin</th>
@@ -38,9 +39,9 @@
     <tr>
         <td><a href="supprimer.php?id=<?php echo $event['id'];?>" class="text-danger">&#10060 </a></td>
         <td><?php echo $event['id'];?></td>
-        <td><?php echo $event['nom'];?></td>
+        <td><?php echo $eventManager['nom'];?></td>
         <td><?php echo $event['date_de_debut'];?></td>
-        <td><?php echo $event['date_de_fin'];?></td>
+        <td><?php echo $eventt['date_de_fin'];?></td>
         <td><?php echo $event['organisateur'];?></td>
          <td><?php echo $event['description'];?></td>
         <td><a href="detail.php?id=<?php echo $event['id'];?>">detail</a></td>

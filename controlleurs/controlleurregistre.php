@@ -14,7 +14,8 @@ if (isset($_POST)) {
         $_POST['residence'],
         $_POST['genre'],
         $_POST['profession'],
-        $_POST['telephone'],
+        $_POST['telephone']
+    }
 
 
 $event=new Event($_POST);

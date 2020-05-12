@@ -2,7 +2,7 @@
 class Event{
   private $id;
   private $nom;
-  private $date_de_debut;
+  private $date_de_début;
   private $date_de_fin;
   private $organisateur;
   private $description;
@@ -47,7 +47,7 @@ class Event{
     }
   }
 
-  public function setdescription($description){
+  public function setdesciptions($description){
     if (is_string($description)){
       $this->description=$description;
     }
