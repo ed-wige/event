@@ -24,7 +24,7 @@ use modeles\AdminManager;
 		else{
 			$_SESSION["autoriser"]="oui";
 			
-			header("location:../vues/session.php");
+			header("location:../vues/amindashboard/examples/dashboard.html");
 		}
 	}
 ?>

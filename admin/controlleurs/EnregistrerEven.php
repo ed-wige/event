@@ -1,5 +1,5 @@
 <?php
-require_once '../vues/session.php';
+
 require_once '../modeles/EventManager.php';
 require_once '../modeles/Event.php';
 
